@@ -1,6 +1,6 @@
-import Coins from "../coins/Coins";
+import PropTypes from "prop-types";
 
-const Header = () => {
+const Header = ({coins}) => {
     return (
         <nav className="flex justify-between items-center py-5 px-5 md:px-16 lg:px-60 top-0 z-10 sticky backdrop-blur-xl">
             <div><a href="../../../index.html"><img src="https://i.ibb.co.com/QcBTWYW/bpldream11logo.png" alt="" /></a></div>
@@ -12,7 +12,7 @@ const Header = () => {
                     <p><a href="">Stats</a></p>
                 </div>
                 <div>
-                    <button className="cursor-default border border-gray-200 bg-white rounded-xl px-5 py-4 font-semibold flex items-center gap-x-2"><span><Coins></Coins></span>Coins<span><img className="w-5 h-5" src="https://i.ibb.co.com/h9TXFLF/dollar.png" alt="" /></span></button>
+                    <button className="cursor-default border border-gray-200 bg-white rounded-xl px-5 py-4 font-semibold flex items-center gap-x-2"><span>{coins}</span>Coins<span><img className="w-5 h-5" src="https://i.ibb.co.com/h9TXFLF/dollar.png" alt="" /></span></button>
                 </div>
                 <div className="dropdown dropdown-end md:hidden lg:hidden">
                     <div tabIndex="0" role="button" className="btn btn-ghost btn-circle">
@@ -35,5 +35,9 @@ const Header = () => {
         </nav>
     );
 };
+
+Header.propTypes = {
+    coins: PropTypes.number
+}
 
 export default Header;

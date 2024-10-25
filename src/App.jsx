@@ -3,16 +3,25 @@ import AvailablePlayers from "./components/availablePlayers/AvailablePlayers";
 import Footer from "./components/footer/Footer";
 import NewsLetter from "./components/newsletter/NewsLetter";
 import Banner from "./components/banner/Banner";
+import { useState } from "react";
+import MainFeature from "./components/mainFeature/MainFeature";
 
 const App = () => {
+
+  const [coins, setCoins] = useState(0);
+
+  const claimCoins = coin => {
+    setCoins(coins + coin);
+  }
+
   return (
     <div>
-      <Header></Header>
+      <Header coins={coins}></Header>
       <div className="mx-5 md:mx-16 lg:mx-60">
-        <Banner></Banner>
+        <Banner claimCoins={claimCoins}></Banner>
       </div>
-      <div className="my-10">
-        <AvailablePlayers></AvailablePlayers>
+      <div>
+        <MainFeature></MainFeature>
       </div>
       <div className="grid justify-center relative top-52 mx-5 md:mx-16 lg:mx-60">
         <NewsLetter></NewsLetter>

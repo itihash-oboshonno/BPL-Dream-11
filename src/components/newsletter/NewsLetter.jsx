@@ -6,7 +6,7 @@ const NewsLetter = () => {
                 <p className="font-medium md:text-xl text-black opacity-50 my-2">Get the latest updates and news right in your inbox.</p>
                 <div className="grid md:grid-cols-3 gap-5 my-5">
                     <input className="md:col-span-2 px-4 py-3 md:px-8 md:py-3 border border-gray-200 rounded-xl" type="email" name="" id="" placeholder="Enter your email"/>
-                    <button className="md:col-span-1 px-4 py-3 md:px-8 md:py-3 bg-grad bg-buty rounded-xl text-base md:text-lg font-semibold">Subscribe</button>
+                    <button className="md:col-span-1 px-4 py-3 md:px-8 md:py-3 bg-buty rounded-xl text-base md:text-lg font-semibold">Subscribe</button>
                 </div>
             </div>
         </div>
