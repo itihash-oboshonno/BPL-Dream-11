@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "player_img": "https://i.ibb.co.com/48DbtH9/tamim-iqbal.jpg",
+      "player_name": "Tamim Iqbal",
+      "nationality": "Bangladesh",
+      "playing_role": "Batsman",
+      "batter_type": "Left Handed",
+      "bowler_type": "Right Arm Offbreak",
+      "price": "$620,000"
+    },
+    {
+      "id": 2,
+      "player_img": "https://i.ibb.co.com/QDjggPc/shahid-afridi.jpg",
+      "player_name": "Shahid Afridi",
+      "nationality": "Pakistan",
+      "playing_role": "All-Rounder",
+      "batter_type": "Right Handed",
+      "bowler_type": "Legspin",
+      "price": "$800,000"
+    },
+    {
+      "id": 3,
+      "player_img": "https://i.ibb.co.com/yBD6mzK/shakib-al-hasan.jpg",
+      "player_name": "Shakib Al Hasan",
+      "nationality": "Bangladesh",
+      "playing_role": "All-Rounder",
+      "batter_type": "Left Handed",
+      "bowler_type": "Left Arm Orthodox",
+      "price": "$1,000,000"
+    },
+    {
+      "id": 4,
+      "player_img": "https://i.ibb.co.com/wg8r1J6/sunil-narine.jpg",
+      "player_name": "Sunil Narine",
+      "nationality": "West Indies",
+      "playing_role": "Spinner",
+      "batter_type": "Left Handed",
+      "bowler_type": "Right Arm Offbreak",
+      "price": "$770,000"
+    },
+    {
+      "id": 5,
+      "player_img": "https://i.ibb.co.com/sWF89Zw/taskin-ahmed.jpg",
+      "player_name": "Taskin Ahmed",
+      "nationality": "Bangladesh",
+      "playing_role": "Bowler",
+      "batter_type": "Left Handed",
+      "bowler_type": "Right Arm Fast Medium",
+      "price": "$540,000"
+    },
+    {
+      "id": 6,
+      "player_img": "https://i.ibb.co.com/5s7j44h/chris-gayle.jpg",
+      "player_name": "Chris Gayle",
+      "nationality": "West Indies",
+      "playing_role": "Batsman",
+      "batter_type": "Left Handed",
+      "bowler_type": "Right Arm Offbreak",
+      "price": "$900,000"
+    },
+    {
+      "id": 7,
+      "player_img": "https://i.ibb.co.com/8Pp7NFy/mohammad-ashraful.jpg",
+      "player_name": "Mohammad Ashraful",
+      "nationality": "Bangladesh",
+      "playing_role": "All-Rounder",
+      "batter_type": "Right Handed",
+      "bowler_type": "Legspin",
+      "price": "$650,000"
+    },
+    {
+      "id": 8,
+      "player_img": "https://i.ibb.co.com/GVwmy18/kieron-pollard.jpg",
+      "player_name": "Kieron Pollard",
+      "nationality": "West Indies",
+      "playing_role": "All-Rounder",
+      "batter_type": "Right Handed",
+      "bowler_type": "Right Arm Medium",
+      "price": "$700,000"
+    },
+    {
+      "id": 9,
+      "player_img": "https://i.ibb.co.com/7z8Y7KS/mushfiqur-rahim.jpg",
+      "player_name": "Mushfiqur Rahim",
+      "nationality": "Bangladesh",
+      "playing_role": "Wicket Keeper",
+      "batter_type": "Right Handed",
+      "bowler_type": "N/A",
+      "price": "$500,000"
+    },
+    {
+      "id": 10,
+      "player_img": "https://i.ibb.co.com/GprCzf9/mustafizur-rahman.jpg",
+      "player_name": "Mustafizur Rahman",
+      "nationality": "Bangladesh",
+      "playing_role": "Bowler",
+      "batter_type": "Left Handed",
+      "bowler_type": "Left Arm Fast Medium",
+      "price": "$600,000"
+    },
+    {
+      "id": 11,
+      "player_img": "https://i.ibb.co.com/0ZRH6Lt/andre-russell.jpg",
+      "player_name": "Andre Russell",
+      "nationality": "West Indies",
+      "playing_role": "All-Rounder",
+      "batter_type": "Right Handed",
+      "bowler_type": "Right Arm Fast Medium",
+      "price": "$720,000"
+    },
+    {
+      "id": 12,
+      "player_img": "https://example.com/player12.jpg",
+      "player_name": "Tanzim Hasan Sakib",
+      "nationality": "Bangladesh",
+      "playing_role": "Bowler",
+      "batter_type": "Right Handed",
+      "bowler_type": "Right Arm Fast",
+      "price": "$400,000"
+    }
+]
