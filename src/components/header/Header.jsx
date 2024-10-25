@@ -2,11 +2,11 @@ import Coins from "../coins/Coins";
 
 const Header = () => {
     return (
-        <nav className="flex justify-between items-center py-5">
-            <div><a href="../../App.jsx"><img src="https://i.ibb.co.com/QcBTWYW/bpldream11logo.png" alt="" /></a></div>
+        <nav className="flex justify-between items-center py-5 mx-5 md:mx-16 lg:mx-60">
+            <div><a href="../../../index.html"><img src="https://i.ibb.co.com/QcBTWYW/bpldream11logo.png" alt="" /></a></div>
             <div className="flex justify-between items-center gap-x-5 md:gap-x-12">
                 <div className="hidden md:flex md:justify-between md:items-center md: gap-x-12">
-                    <p><a href="../../App.jsx">Home</a></p>
+                    <p><a href="../../../index.html">Home</a></p>
                     <p><a href="">Fixtures</a></p>
                     <p><a href="">Teams</a></p>
                     <p><a href="">Stats</a></p>
@@ -25,7 +25,7 @@ const Header = () => {
                     <ul
                       tabIndex="0"
                       className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a href="../../App.jsx">Home</a></li>
+                      <li><a href="../../../index.html">Home</a></li>
                       <li><a>Fixtures</a></li>
                       <li><a>Teams</a></li>
                       <li><a>Stats</a></li>

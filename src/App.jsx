@@ -1,13 +1,15 @@
 import Header from "./components/header/header";
 import AvailablePlayers from "./components/availablePlayers/AvailablePlayers";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
-    <div className="mx-5 md:mx-16 lg:mx-72">
+    <div>
       <Header></Header>
-      <div>
+      <div className="my-10">
         <AvailablePlayers></AvailablePlayers>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

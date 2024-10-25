@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         buty: "#E7FE29",
+        feet: "#06091A",
       },
     },
   },
