@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const EveryPlayer = ({player}) => {
+const EveryPlayer = ({player, praptoKhelowar}) => {
     const {player_img, player_name, nationality, playing_role, batter_type, bowler_type, price} = player;
     return (
         <div className='border border-gray-200 rounded-2xl p-6 grid gap-y-5 items-center justify-center'>
@@ -29,14 +29,16 @@ const EveryPlayer = ({player}) => {
             </div>
             <div className='flex items-center justify-between'>
                 <p>Price: <span className='font-semibold'>{price}</span></p>
-                <button className='px-4 py-2 rounded-lg text-sm border border-gray-200 hover:bg-buty transition ease-in-out duration-200 font-medium'>Choose Player</button>
+                <button onClick={() => praptoKhelowar(player)}
+                className='px-4 py-2 rounded-lg text-sm border border-gray-200 hover:bg-buty transition ease-in-out duration-200 font-medium'>Choose Player</button>
             </div>
         </div>
     );
 };
 
 EveryPlayer.propTypes = {
-    player: PropTypes.object.isRequired
+    player: PropTypes.object.isRequired,
+    praptoKhelowar: PropTypes.func
 }
 
 export default EveryPlayer;

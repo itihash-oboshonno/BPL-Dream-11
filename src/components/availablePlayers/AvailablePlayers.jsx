@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import EveryPlayer from "../everyPlayer/EveryPlayer";
+import PropTypes from 'prop-types';
 
-const AvailablePlayers = () => {
+const AvailablePlayers = ({praptoKhelowar}) => {
 
     const [players, setPlayers] = useState([]);
 
@@ -18,10 +19,15 @@ const AvailablePlayers = () => {
                 players.map(player => <EveryPlayer
                     key={player.id}
                     player={player}
+                    praptoKhelowar={praptoKhelowar}
                     ></EveryPlayer>)
             }
         </div>
     );
 };
+
+AvailablePlayers.propTypes = {
+    praptoKhelowar: PropTypes.func
+}
 
 export default AvailablePlayers;
