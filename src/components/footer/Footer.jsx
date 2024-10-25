@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="pt-96 grid bg-feet overflow-hidden">
+        <div className="pt-72 grid bg-feet overflow-hidden">
             <div className="flex justify-center overflow-hidden my-10"><img src="https://i.ibb.co.com/KKmjdx7/bpldream11logo-footer.png" alt="" /></div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-between gap-16 px-10 lg:px-60 overflow-hidden my-10">
                 <div className="flex flex-col gap-y-2 overflow-hidden">
@@ -18,8 +18,8 @@ const Footer = () => {
                     <p className="font-semibold text-lg text-white">Subscribe</p>
                     <p className="text-white opacity-60">Subscribe to our weekly newsletter to get exciting and latest updates.</p>
                     <div className="flex overflow-hidden">
-                        <input className="px-4 py-3 md:px-8 md:py-4 rounded-l-xl" type="email" name="" id="" placeholder="Enter your email"/>
-                        <button className="px-4 py-3 md:px-8 md:py-4 bg-grad bg-buty rounded-r-xl text-base md:text-lg font-semibold">Subscribe</button>
+                        <input className="px-4 py-3 md:px-8 md:py-3 rounded-l-xl" type="email" name="" id="" placeholder="Enter your email"/>
+                        <button className="px-4 py-3 md:px-8 md:py-3 bg-grad bg-buty rounded-r-xl text-base md:text-lg font-semibold">Subscribe</button>
                     </div>
                 </div>
             </div>

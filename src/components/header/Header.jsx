@@ -2,7 +2,7 @@ import Coins from "../coins/Coins";
 
 const Header = () => {
     return (
-        <nav className="flex justify-between items-center py-5 mx-5 md:mx-16 lg:mx-60">
+        <nav className="flex justify-between items-center py-5 px-5 md:px-16 lg:px-60 top-0 z-10 sticky backdrop-blur-xl">
             <div><a href="../../../index.html"><img src="https://i.ibb.co.com/QcBTWYW/bpldream11logo.png" alt="" /></a></div>
             <div className="flex justify-between items-center gap-x-5 md:gap-x-12">
                 <div className="hidden md:flex md:justify-between md:items-center md: gap-x-12">
@@ -12,7 +12,7 @@ const Header = () => {
                     <p><a href="">Stats</a></p>
                 </div>
                 <div>
-                    <button className="border border-gray-200 rounded-xl px-5 py-4 font-semibold flex items-center gap-x-2"><span><Coins></Coins></span>Coins<span><img className="w-5 h-5" src="https://i.ibb.co.com/h9TXFLF/dollar.png" alt="" /></span></button>
+                    <button className="border border-gray-200 bg-white rounded-xl px-5 py-4 font-semibold flex items-center gap-x-2"><span><Coins></Coins></span>Coins<span><img className="w-5 h-5" src="https://i.ibb.co.com/h9TXFLF/dollar.png" alt="" /></span></button>
                 </div>
                 <div className="dropdown dropdown-end md:hidden lg:hidden">
                     <div tabIndex="0" role="button" className="btn btn-ghost btn-circle">
