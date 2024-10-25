@@ -12,7 +12,7 @@ const Header = () => {
                     <p><a href="">Stats</a></p>
                 </div>
                 <div>
-                    <button className="border border-gray-200 bg-white rounded-xl px-5 py-4 font-semibold flex items-center gap-x-2"><span><Coins></Coins></span>Coins<span><img className="w-5 h-5" src="https://i.ibb.co.com/h9TXFLF/dollar.png" alt="" /></span></button>
+                    <button className="cursor-default border border-gray-200 bg-white rounded-xl px-5 py-4 font-semibold flex items-center gap-x-2"><span><Coins></Coins></span>Coins<span><img className="w-5 h-5" src="https://i.ibb.co.com/h9TXFLF/dollar.png" alt="" /></span></button>
                 </div>
                 <div className="dropdown dropdown-end md:hidden lg:hidden">
                     <div tabIndex="0" role="button" className="btn btn-ghost btn-circle">
