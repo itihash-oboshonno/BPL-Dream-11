@@ -1,4 +1,4 @@
-# <img width="30px" src="/public/bpldream11logo.png"/> BPL DREAM 11
+# <img width="50px" src="/public/bpldream11logo.png"/> BPL DREAM 11
 
 Welcome to **BPL Dream 11**. This is a simple and fun project which fetches data of some players and shows them in a well-managed way for the visitor to choose from. One can get a little taste of the real life franchise cricket player buying feature and build their dream team!
 
@@ -8,15 +8,11 @@ Welcome to **BPL Dream 11**. This is a simple and fun project which fetches data
 
 ### Technologies Used
 
-- **<img width="10px" src="/public/React-icon.svg.png"/> React JS**
-
-- **<img width="10px" src="/public/Vitejs-logo.svg.png"> Vite**
-
-- **<img width="10px" src="/public/ESLint_logo.svg.png"/> ESLint**
-
-- **<img width="10px" src="/public/sonner logo.png"/> Sonner**
-
-- **<img width="10px" src="/public/tailwind logo.png"> Tailwind**
+- **<img width="20px" src="/public/React-icon.svg.png"/> React JS**
+- **<img width="20px" src="/public/Vitejs-logo.svg.png"> Vite**
+- **<img width="20px" src="/public/ESLint_logo.svg.png"/> ESLint**
+- **<img width="20px" src="/public/sonner logo.png"/> Sonner**
+- **<img width="20px" src="/public/tailwind logo.png"> Tailwind**
 
 
 
