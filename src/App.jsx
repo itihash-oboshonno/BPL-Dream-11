@@ -12,6 +12,7 @@ const App = () => {
 
   const claimCoins = coin => {
     setCoins(coins + coin);
+    alert("Successfully claimed free coins!");
   }
 
   // selected players function (1/2)
@@ -22,7 +23,7 @@ const App = () => {
     let daamStr = daamString.replace(/[^0-9.-]+/g, '');
     let daamNumber = Number(daamStr);
     if (daamNumber <= coins) {
-      if (khelowar.length <= 6) {
+      if (khelowar.length <= 5) {
         let protiPlayerId = doleNisi.id
         console.log(protiPlayerId)
         if (khelowar.every(alreadyAche => alreadyAche.id !== protiPlayerId)) {
