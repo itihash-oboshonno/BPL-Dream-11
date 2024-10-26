@@ -15,7 +15,7 @@ const MainFeature = ({khelowar, praptoKhelowar, batilTumiMiya}) => {
                     <button onClick={() => setCurrentButton(true)}
                     className={`md:col-span-1 px-4 py-3 md:px-6 md:py-2 border border-gray-200 rounded-l-xl font-semibold ${currentButton ? 'bg-buty' : 'bg-white hover:bg-gray-100 transition ease-in-out'}`}>Available</button>
                     <button onClick={() => setCurrentButton(false)}
-                    className={`md:col-span-1 px-4 py-3 md:px-6 md:py-2 border border-gray-200 rounded-r-xl font-semibold ${currentButton ? 'bg-white hover:bg-gray-100 transition ease-in-out' : 'bg-buty'}`}>Selected</button>
+                    className={`md:col-span-1 px-4 py-3 md:px-6 md:py-2 border border-gray-200 rounded-r-xl font-semibold ${currentButton ? 'bg-white hover:bg-gray-100 transition ease-in-out' : 'bg-buty'}`}>Selected ({0})</button>
                 </div>
             </div>
             <div className="my-10">

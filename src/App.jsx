@@ -7,23 +7,42 @@ import MainFeature from "./components/mainFeature/MainFeature";
 
 const App = () => {
 
+  // claiming coins function
   const [coins, setCoins] = useState(0);
 
   const claimCoins = coin => {
     setCoins(coins + coin);
   }
 
+  // selected players function (1/2)
   const [khelowar, setKhelowar] = useState([]);
 
   const praptoKhelowar = doleNisi => {
-    setKhelowar([...khelowar, doleNisi])
+    let daamString = doleNisi.price;
+    let daamStr = daamString.replace(/[^0-9.-]+/g, '');
+    let daamNumber = Number(daamStr);
+    if (daamNumber <= coins) {
+      if (khelowar.length <= 6) {
+        let protiPlayerId = doleNisi.id
+        console.log(protiPlayerId)
+        if (khelowar.every(alreadyAche => alreadyAche.id !== protiPlayerId)) {
+          setCoins(coins - daamNumber);
+          setKhelowar([...khelowar, doleNisi]);
+        } else {return alert("ek player koybar niben?");}
+      } else {return alert("array vore gese maaf koren");}
+    } else {return alert("Sir, please sir.");}
   }
+  
 
+  // deleting a selected player function
   const batilTumiMiya = (baadDisi) => {
     console.log('baad deya loker id paisi sir', baadDisi)
     const baadDeyarPor = khelowar.filter(batil => batil.id !== baadDisi);
     setKhelowar(baadDeyarPor)
   }
+
+
+  
 
   return (
     <div>
