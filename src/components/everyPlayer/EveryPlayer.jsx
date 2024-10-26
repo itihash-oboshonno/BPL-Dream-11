@@ -23,7 +23,7 @@ const EveryPlayer = ({player, praptoKhelowar}) => {
                 </div>
             </div>
             <hr />
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center justify-between gap-5'>
                 <p>Batting: <span className='font-semibold'>{batter_type}</span></p>
                 <p>Bowling: <span className='font-semibold'>{bowler_type}</span></p>
             </div>

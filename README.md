@@ -18,8 +18,8 @@ Welcome to **BPL Dream 11**. This is a simple and fun project which fetches data
 
 ### 3 key features of this project
 
-- **Selecting a player requires three conditions to be fulfilled: Have enough money, Not more than six players and every player must be unique (Sorry, you can't fill your team up with all 6 Chris Gayles! 😜)**
+- Selecting a player requires three conditions to be fulfilled: Have enough money, Not more than six players and every player must be unique (Sorry, you can't fill your team up with all 6 Chris Gayles! 😜)
 
-- **If there is an error, such as trying to buy one player more than once or not having enough money to buy, the site responds with beautiful and appropriate alert messages; thanks to Sonner. 🔥**
+- If there is an error, such as trying to buy one player more than once or not having enough money to buy, the site responds with beautiful and appropriate alert messages; thanks to Sonner. 🔥
 
-- **Unlimited money can be claimed through the "Claim Free Credit" button so that you can choose whoever you want for your team and not worry about going out of cash. 😎**
+- Unlimited money can be claimed through the "Claim Free Credit" button so that you can choose whoever you want for your team and not worry about going out of cash. 😎

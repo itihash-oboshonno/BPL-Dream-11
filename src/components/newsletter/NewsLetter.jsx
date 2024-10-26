@@ -1,7 +1,7 @@
 const NewsLetter = () => {
     return (
         <div className="border-2 border-gray-100 rounded-2xl backdrop-blur p-5 md:p-7">
-            <div className="bg-white bg-[url('https://i.ibb.co.com/3kVh7f2/bpldream11bg-shadow.png')] bg-cover rounded-2xl p-5 py-10 md:px-36 lg:px-96 lg:py-20 text-center">
+            <div className="bg-white bg-[url('https://i.ibb.co.com/3kVh7f2/bpldream11bg-shadow.png')] bg-cover rounded-2xl p-5 py-10 md:px-36 lg:px-60 lg:py-20 text-center">
                 <p className="font-bold text-xl md:text-3xl my-2">Subscribe to Our Newsletter</p>
                 <p className="font-medium md:text-xl text-black opacity-50 my-2">Get the latest updates and news right in your inbox.</p>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-4 gap-y-3 my-5">

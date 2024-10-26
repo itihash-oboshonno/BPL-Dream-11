@@ -14,12 +14,12 @@ const Footer = () => {
                     <li className="text-white opacity-60"><a>Teams</a></li>
                     <li className="text-white opacity-60"><a>Stats</a></li>
                 </div>
-                <div className="flex flex-col gap-y-4 overflow-hidden">
+                <div className="flex flex-col gap-y-4">
                     <p className="font-semibold text-lg text-white">Subscribe</p>
                     <p className="text-white opacity-60">Subscribe to our weekly newsletter to get exciting and latest updates.</p>
-                    <div className="flex flex-col lg:flex-row overflow-hidden">
-                        <input className="px-4 py-3 md:px-8 md:py-3 rounded-t-xl lg:rounded-t-none lg:rounded-l-xl text-center" type="email" name="" id="" placeholder="Enter your email"/>
-                        <button className="px-4 py-3 md:px-8 md:py-3 bg-grad bg-buty rounded-b-xl lg:rounded-b-none lg:rounded-r-xl text-base md:text-lg font-semibold">Subscribe</button>
+                    <div className="flex flex-col lg:flex-row">
+                        <input className="px-4 py-3 md:px-8 md:py-3 rounded-t-xl lg:rounded-r-none lg:rounded-l-xl text-center" type="email" name="" id="" placeholder="Enter your email"/>
+                        <button className="px-4 py-3 md:px-8 md:py-3 bg-grad bg-buty rounded-b-xl lg:rounded-l-none lg:rounded-r-xl text-base md:text-lg font-semibold">Subscribe</button>
                     </div>
                 </div>
             </div>
