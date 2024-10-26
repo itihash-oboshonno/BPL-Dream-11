@@ -11,7 +11,7 @@ const Banner = ({claimCoins}) => {
             </div>
             <p className="text-white text-xl md:text-4xl font-bold my-4">Assemble Your Ultimate Dream 11 Cricket Team</p>
             <p className="text-white opacity-50 font-medium md:text-2xl my-4">Beyond Boundaries Beyond Limits</p>
-            <button onClick={() => claimCoins(increaseCoins)} className="rounded-2xl p-1.5 border-2 border-buty hover:bg-buty hover:bg-opacity-50 transition ease-in-out my-4">
+            <button onClick={() => {claimCoins(increaseCoins)}} className="rounded-2xl p-1.5 border-2 border-buty hover:bg-buty hover:bg-opacity-50 transition ease-in-out my-4">
                 <div className="rounded-xl bg-buty px-8 py-3"><p className="font-bold md:text-xl">Claim Free Credit</p></div>
             </button>
         </div>

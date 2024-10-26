@@ -4,15 +4,20 @@ import NewsLetter from "./components/newsletter/NewsLetter";
 import Banner from "./components/banner/Banner";
 import { useState } from "react";
 import MainFeature from "./components/mainFeature/MainFeature";
+// import React from "react";
+import { Toaster, toast } from 'sonner'
 
 const App = () => {
+
+  // toastify alerts
+  
 
   // claiming coins function
   const [coins, setCoins] = useState(0);
 
   const claimCoins = coin => {
     setCoins(coins + coin);
-    alert("Successfully claimed free coins!");
+    toast.success("Successfully claimed free coins!");
   }
 
   // selected players function (1/2)
@@ -29,9 +34,10 @@ const App = () => {
         if (khelowar.every(alreadyAche => alreadyAche.id !== protiPlayerId)) {
           setCoins(coins - daamNumber);
           setKhelowar([...khelowar, doleNisi]);
-        } else {return alert("ek player koybar niben?");}
-      } else {return alert("array vore gese maaf koren");}
-    } else {return alert("Sir, please sir.");}
+          return toast.success("Player successfully added to your team");
+        } else {return toast.error("Player already selected");}
+      } else {return toast.error("Cannot add more than 6 players");}
+    } else {return toast.error("Not enough money to buy this player");}
   }
   
 
@@ -39,7 +45,8 @@ const App = () => {
   const batilTumiMiya = (baadDisi) => {
     console.log('baad deya loker id paisi sir', baadDisi)
     const baadDeyarPor = khelowar.filter(batil => batil.id !== baadDisi);
-    setKhelowar(baadDeyarPor)
+    setKhelowar(baadDeyarPor);
+    toast.info("Removed player from your team")
   }
 
 
@@ -58,6 +65,7 @@ const App = () => {
         <NewsLetter></NewsLetter>
       </div>
       <Footer></Footer>
+      <Toaster position="top-center" expand={true} richColors closeButton />
     </div>
   );
 };
