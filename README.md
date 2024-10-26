@@ -1,8 +1,29 @@
-# React + Vite
+# <img width="30px" src="/public/bpldream11logo.png"/> BPL DREAM 11
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **BPL Dream 11**. This is a simple and fun project which fetches data of some players and shows them in a well-managed way for the visitor to choose from. One can get a little taste of the real life franchise cricket player buying feature and build their dream team!
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Live Site Link: []()
+
+
+### Technologies Used
+
+- **<img width="10px" src="/public/React-icon.svg.png"/> React JS**
+
+- **<img width="10px" src="/public/Vitejs-logo.svg.png"> Vite**
+
+- **<img width="10px" src="/public/ESLint_logo.svg.png"/> ESLint**
+
+- **<img width="10px" src="/public/sonner logo.png"/> Sonner**
+
+- **<img width="10px" src="/public/tailwind logo.png"> Tailwind**
+
+
+
+### 3 key features of this project
+
+- **Selecting a player requires three conditions to be fulfilled: Have enough money, Not more than six players and every player must be unique (Sorry, you can't fill your team up with all 6 Chris Gayles! 😜)**
+
+- **If there is an error, such as trying to buy one player more than once or not having enough money to buy, the site responds with beautiful and appropriate alert messages; thanks to Sonner. 🔥**
+
+- **Unlimited money can be claimed through the "Claim Free Credit" button so that you can choose whoever you want for your team and not worry about going out of cash. 😎**

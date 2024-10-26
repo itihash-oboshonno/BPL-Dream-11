@@ -30,7 +30,6 @@ const App = () => {
     if (daamNumber <= coins) {
       if (khelowar.length <= 5) {
         let protiPlayerId = doleNisi.id
-        console.log(protiPlayerId)
         if (khelowar.every(alreadyAche => alreadyAche.id !== protiPlayerId)) {
           setCoins(coins - daamNumber);
           setKhelowar([...khelowar, doleNisi]);
@@ -43,7 +42,6 @@ const App = () => {
 
   // deleting a selected player function
   const batilTumiMiya = (baadDisi) => {
-    console.log('baad deya loker id paisi sir', baadDisi)
     const baadDeyarPor = khelowar.filter(batil => batil.id !== baadDisi);
     setKhelowar(baadDeyarPor);
     toast.info("Removed player from your team")
