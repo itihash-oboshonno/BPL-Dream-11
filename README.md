@@ -3,7 +3,7 @@
 Welcome to **BPL Dream 11**. This is a simple and fun project which fetches data of some players and shows them in a well-managed way for the visitor to choose from. One can get a little taste of the real life franchise cricket player buying feature and build their dream team!
 
 
-### Live Site Link: [https://cozy-bavarois-c7ec7c.netlify.app/](https://cozy-bavarois-c7ec7c.netlify.app/)
+### Live Site Link: [https://bpl-dream-11-io.netlify.app/](https://bpl-dream-11-io.netlify.app/)
 
 
 ### Technologies Used
